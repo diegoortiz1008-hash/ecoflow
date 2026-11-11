@@ -1,0 +1,22 @@
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > acepta un proyecto válido, recorta espacios y convierte la coma decimal
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > exige los campos obligatorios
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > RN-1: rechaza capacidad 0
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > RN-1: rechaza capacidad -5
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > RN-1: rechaza capacidad 10000.01
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > RN-1: rechaza capacidad abc
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > RN-1: acepta exactamente 10.000 kW y rechaza más de 2 decimales
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > RN-2: la fecha fin no puede ser anterior al inicio (igual sí se permite)
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > RN-5: no permite asignar un instalador inactivo
+ ✓ src/utils/validation.test.ts > validateProyecto (réplica en cliente de RN-1, RN-2, RN-5) > el instalador es opcional (el proyecto nace pendiente)
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > coordinador: carga los 4 proyectos y calcula KPIs
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > instaladora (RLS SEG-2): solo recibe sus proyectos asignados
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > filtra por texto y ciudad sin volver a consultar
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > coordinador crea un proyecto y aparece como pendiente
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > instaladora no puede crear proyectos (error de permisos traducido)
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > cambio de estado optimista: se ve al instante y se confirma
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > RN-4: si la BD rechaza la transición, hace rollback y muestra el motivo
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > RN-3: el coordinador no puede iniciar un proyecto sin instalador
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > error de carga y reintento
+ ✓ src/hooks/useProyectos.test.tsx > useProyectos > al cambiar de usuario recarga con los permisos del nuevo usuario
+ Test Files  2 passed (2)
+      Tests  20 passed (20)

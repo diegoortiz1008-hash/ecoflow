@@ -1,0 +1,16 @@
+OK 1  SEG-2 Ana (instaladora) ve solo sus 2 proyectos asignados de 4
+OK 2  SEG-2 Ana ve solo su ficha y los materiales de SUS proyectos
+OK 3  SEG-3 una instaladora no puede crear proyectos
+OK 4  SEG-2 una instaladora solo puede cambiar el estado (no capacidad, fechas ni asignación)
+OK 5  SEG-2 una instaladora no puede tocar proyectos de otro (0 filas)
+OK 6  RN-4 la instaladora no puede retroceder el estado (en_progreso -> pendiente)
+OK 7  RN-4 la instaladora avanza su proyecto en_progreso -> completado
+OK 8  SEG-3 el coordinador ve los 4 proyectos
+OK 9  RN-3 no se puede iniciar un proyecto sin instalador asignado
+OK 10 RN-5 no se puede asignar un instalador inactivo (Carla)
+OK 11 RN-2 la fecha fin no puede ser anterior al inicio
+OK 12 RN-1 capacidad > 10.000 kW rechazada
+OK 13 RN-6 costo de materiales del proyecto = 254400000.00 (220 paneles + 12 inversores)
+OK 14 SEG-6 vista sin security_invoker FILTRA 4 proyectos; v_proyectos_resumen (security_invoker) solo 2
+OK 15 SEG-5 usuarios anónimos no acceden a nada
+=== 15/15 PRUEBAS DE ESQUEMA Y RLS OK ===
